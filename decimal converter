@@ -1,1 +1,7 @@
-
+#include<stdio.h>
+int main(){
+int dec; int hex; int i=0;
+printf("enter any decimal number");
+scanf("%d", &dec);
+for(i=0, i<)
+}
