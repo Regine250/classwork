@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-int a; int b; int prod;
-printf("enter any two numbers")
+int a; int prod;
+printf("enter any numbers")
 scanf("%d", &a);
-scanf("%d", &b);
-prod = a*b;
+prod = a*10;
 printf("the product is: %d", prod);
 return 0;
 }
