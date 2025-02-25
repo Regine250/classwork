@@ -1,0 +1,40 @@
+#include<stdio.h>
+
+#define max [5]
+
+structure student{
+char name;
+float subject1;
+float subject2;
+float subject3;
+char grade;
+};
+
+int main() {
+structvstudent s [5];
+
+for (int i =0; i < 5; i++){
+printf("Enter student name: ");
+scanf("%c", &s[i].name);
+printf("enter marks for subject 1:");
+scanf("%f", &s[i].subject1);
+printf("enter marks for subject 2: ");
+scanf("%f", &s[i].subject2);
+printf("enter marks for subject 3: ");
+scanf("%f", &s[i].subject3);
+printf("enter the grade of students");
+scanf("%c", &s[i].grade);
+};
+
+printf("student records:\n");
+for (int i = 0; i < 5; i++);{
+printf("\nName: %c", s[i].name);
+printf("\nsubject1: %f", s[i].subject1);
+printf("\nsubject2: %f", s[i].subject2);
+printf("\nsubject3: %f", s[i].subject3);
+printf("\ngrade: %c", s[i].grade);
+};
+
+return 0;
+}
+
